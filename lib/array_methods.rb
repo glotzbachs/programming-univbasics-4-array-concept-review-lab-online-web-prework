@@ -1,17 +1,15 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  while 
+  array.index(value_to_find)
 end
 
 def find_max_value(array)
-  array.max_by do |element|
-  element.field
-  end
+  array.sort
+  array[-1]
 end
 
 def find_min_value(array)
   # Add your solution here
- array.min_by do |element|
-  element.field
-  end
+  array.sort
+  array[1]
 end
